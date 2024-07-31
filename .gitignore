@@ -1,7 +1,7 @@
 # Visual Studio Code #
 .vscode/*
-!setting_linux
-!setting_win
+!setting_linux.txt
+!setting_win.txt
 .history
 
 # Prerequisites

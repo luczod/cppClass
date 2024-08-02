@@ -23,6 +23,9 @@
 
 // settings.json
 {
+    "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    },
     "editor.formatOnSave": true,
     "clang-format.style": "Google",
     "clang-format.executable": "C:\\Program Files\\LLVM\\bin\\clang-format.exe",

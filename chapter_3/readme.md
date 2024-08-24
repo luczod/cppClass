@@ -1,6 +1,5 @@
 ### Pointer
-- appending an asterisk(*) to the pointed-to type.
-- int* my_ptr;
+- appending an asterisk(*) to the pointed-to type. (int\* my_ptr;)
 - The format specifier for a pointer is %p.
 - void pointers and std::byte pointers
 - A pointer can be reseated, unlike references(&)
@@ -21,6 +20,7 @@
 ### References
 - References are safer, more convenient versions of pointers.
 - Declare references with the "&" declarator appended to the type name.
+- int &my_ref;
 
 ### Forward-Linked Lists
 - Each element holds a pointer to the next element.

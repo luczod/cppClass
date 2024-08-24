@@ -2,7 +2,8 @@
 #include <cstdio>
 #include <new>
 
-struct Point {
+struct Point
+{
   Point() : x{}, y{}, z{} { printf("Point at %p constructed.\n", this); }
 
   ~Point() { printf("Point at %p destructed.\n", this); }
@@ -10,7 +11,8 @@ struct Point {
   double x, y, z;
 };
 
-int main() {
+int main()
+{
   const auto point_size = sizeof(Point);
   std::byte data[3 * point_size];
   printf("Data starts at %p.\n", data);

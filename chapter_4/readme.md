@@ -1,7 +1,7 @@
 ### Allocation
 - A variable is simply an object that has a name.
 - Every object requires storage. You reserve storage for objects in a process called allocation.
-- An object’s storage duration begins when the object is allocated andends when the object is deallocated.
+- An object’s storage duration begins when the object is allocated and ends when the object is deallocated.
 - A data buffer (or just buffer) is a region of memory used to store data temporarily while it is being moved from one place to another.
 
 ### Static Members
@@ -21,7 +21,7 @@
 - The copy assignment operator uses the operator= syntax
 - Copy constructor and assignment operator are used to perform deep copy when an object contains pointer members that point to dynamically allocated memory.
 - you can define multiple functions with the same name but with different parameters
-- the compiler will automatically call the correct version depending on  arguments.
+- the compiler will automatically call the correct version **depending on arguments**.
 
 ### Move constructor
 ***the move constructor and move assignment operator is to transfer the resources (such as memory) owned by an object to another object. It is used to optimize the performance of an application by reducing the amount of data copying that is needed.***

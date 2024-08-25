@@ -15,6 +15,11 @@
 - Compiler: Work on one translation unit at a time,so each translation unit corresponds to a single object file.
 - Linker: Generates programs from object files
 
+### Translation Unit
+- The number of translation units is determined by the number of standalone .cpp files in your project, regardless of whether they're embedded in other files
+- The number of translation units manageable to optimize compilation time and maintainability
+- Techniques like precompiled headers or incremental linking to improve compilation performance
+
 ### printf Format Specifiers
 
 - %d : int

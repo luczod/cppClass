@@ -61,4 +61,4 @@ int main(int argc, char **argv)
   hist.print();
 }
 
-// histogram The quick brown fox jumps over the lazy dog
+// histogram: The quick brown fox jumps over the lazy dog

@@ -5,7 +5,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/MinGW/boost_1_66_0"
             ],
             "defines": [
                 "_DEBUG",
@@ -87,7 +88,9 @@
                 "-Wall",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I",
+                "C:/boost_1_66_0"
             ],
             "options": {
                 "cwd": "${fileDirname}"

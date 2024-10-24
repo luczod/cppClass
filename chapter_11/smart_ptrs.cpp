@@ -1,4 +1,4 @@
-﻿#define CATCH_CONFIG_MAIN
+#define CATCH_CONFIG_MAIN
 #include <boost/smart_ptr/scoped_ptr.hpp>
 #include <catch2/catch.hpp>
 #include <utility>
@@ -14,6 +14,7 @@ struct DeadMenOfDunharrow {
   const char* message;
   static int oaths_to_fulfill;
 };
+
 int DeadMenOfDunharrow::oaths_to_fulfill{};
 using ScopedOathbreakers = boost::scoped_ptr<DeadMenOfDunharrow>;
 
@@ -92,8 +93,8 @@ TEST_CASE("ScopedPtr supports swap") {
   REQUIRE(aragorn1->message == message2);
 }
 
-void by_ref(const ScopedOathbreakers&) {}
-void by_val(ScopedOathbreakers) {}
+void by_ref(const ScopedOathbreakers&) { }
+void by_val(ScopedOathbreakers) { }
 TEST_CASE("ScopedPtr can") {
   ScopedOathbreakers aragorn{ new DeadMenOfDunharrow };
   SECTION("be passed by reference") {
@@ -230,7 +231,7 @@ struct MyAllocator {
 
   MyAllocator() noexcept = default;
   template <typename U>
-  MyAllocator(const MyAllocator<U>&) noexcept {}
+  MyAllocator(const MyAllocator<U>&) noexcept { }
 
   T* allocate(size_t n) {
     auto p = operator new(sizeof(T) * n);

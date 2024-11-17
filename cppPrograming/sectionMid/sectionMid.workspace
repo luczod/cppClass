@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="sectionMid" Database="" Version="10000">
+  <Project Name="SizeOfOperator" Path="SizeOfOperator/SizeOfOperator.project" Active="No"/>
+  <Project Name="refParameter" Path="refParameter/refParameter.project" Active="Yes"/>
+  <Project Name="DynamicMemory" Path="DynamicMemory/DynamicMemory.project" Active="No"/>
+  <Project Name="AraysAndPointers" Path="AraysAndPointers/AraysAndPointers.project" Active="No"/>
+  <Project Name="PointerArithmetic" Path="PointerArithmetic/PointerArithmetic.project" Active="No"/>
+  <Project Name="Debugger" Path="Debugger/Debugger.project" Active="No"/>
+  <Project Name="InitializingVariables" Path="InitializingVariables/InitializingVariables.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="SizeOfOperator" ConfigName="Debug"/>
+      <Project Name="refParameter" ConfigName="Debug"/>
+      <Project Name="DynamicMemory" ConfigName="Debug"/>
+      <Project Name="AraysAndPointers" ConfigName="Debug"/>
+      <Project Name="PointerArithmetic" ConfigName="Debug"/>
+      <Project Name="Debugger" ConfigName="Debug"/>
+      <Project Name="InitializingVariables" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="SizeOfOperator" ConfigName="Release"/>
+      <Project Name="refParameter" ConfigName="Release"/>
+      <Project Name="DynamicMemory" ConfigName="Release"/>
+      <Project Name="AraysAndPointers" ConfigName="Release"/>
+      <Project Name="PointerArithmetic" ConfigName="Release"/>
+      <Project Name="Debugger" ConfigName="Release"/>
+      <Project Name="InitializingVariables" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section18" Database="" Version="10000">
+  <Project Name="ConstructorException" Path="ConstructorException/ConstructorException.project" Active="Yes"/>
+  <Project Name="MilesPerGallonFunction" Path="MilesPerGallonFunction/MilesPerGallonFunction.project" Active="No"/>
+  <Project Name="MPGFunctionMultipleExceptions" Path="MPGFunctionMultipleExceptions/MPGFunctionMultipleExceptions.project" Active="No"/>
+  <Project Name="StackUnwinding" Path="StackUnwinding/StackUnwinding.project" Active="No"/>
+  <Project Name="MilesPerGallonFunctionExceptionClasses" Path="MilesPerGallonFunctionExceptionClasses/MilesPerGallonFunctionExceptionClasses.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="ConstructorException" ConfigName="Debug"/>
+      <Project Name="MilesPerGallonFunction" ConfigName="Debug"/>
+      <Project Name="MPGFunctionMultipleExceptions" ConfigName="Debug"/>
+      <Project Name="StackUnwinding" ConfigName="Debug"/>
+      <Project Name="MilesPerGallonFunctionExceptionClasses" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="ConstructorException" ConfigName="Release"/>
+      <Project Name="MilesPerGallonFunction" ConfigName="Release"/>
+      <Project Name="MPGFunctionMultipleExceptions" ConfigName="Release"/>
+      <Project Name="StackUnwinding" ConfigName="Release"/>
+      <Project Name="MilesPerGallonFunctionExceptionClasses" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

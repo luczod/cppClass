@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section15" Database="" Version="10000">
+  <Project Name="DerivingOurFirstClass" Path="DerivingOurFirstClass/DerivingOurFirstClass.project" Active="No"/>
+  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="Yes"/>
+  <Project Name="ConstructorsAndDestructors" Path="ConstructorsAndDestructors/ConstructorsAndDestructors.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="DerivingOurFirstClass" ConfigName="Debug"/>
+      <Project Name="BaseClassInitialization" ConfigName="Debug"/>
+      <Project Name="ConstructorsAndDestructors" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="DerivingOurFirstClass" ConfigName="Release"/>
+      <Project Name="BaseClassInitialization" ConfigName="Release"/>
+      <Project Name="ConstructorsAndDestructors" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

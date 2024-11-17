@@ -31,17 +31,17 @@
     <tbody>
         <tr>
             <td>01</td>
-            <td><a href="01">C++ CRASH COURSE</a></td>
+            <td><a href="cppPrograming">C++ Programming - From Beginner to Beyond</a></td>
             <td align="center">
-                <!-- <a href="01"><img width="300px" src="01/.github/preview.jpg" /></a></td> -->
-                <a href="https://github.com/JLospinoso/ccc">github.com/JLospinoso/ccc</a>
+                <a href="https://learnprogramming.academy/courses/beginning-c-programming-from-beginner-to-beyond/">Learn Programming Academy</a>
             </td>
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="02">C++ Programming - From Beginner to Beyond</a></td>
+            <td><a href="crashcourse">C++ CRASH COURSE</a></td>
             <td align="center">
-                <a href="02">Learn Programming Academy</a>
+                <!-- <a href="01"><img width="300px" src="01/.github/preview.jpg" /></a></td> -->
+                <a href="https://github.com/JLospinoso/ccc">github.com/JLospinoso/ccc</a>
             </td>
         </tr>
     </tbody>

@@ -1,3 +1,5 @@
+// Listing 16-16: A factory function for generating ifstreams
+// that handle errors with exceptions rather than failing silently
 #include <fstream>
 #include <iostream>
 #include <string>

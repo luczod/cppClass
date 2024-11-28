@@ -1,3 +1,4 @@
+// Listing 16-1: Using cout and operator<< to write into stdout
 #include <bitset>
 #include <iostream>
 #include <string>

@@ -1,3 +1,5 @@
+// Listing 16-10: A program illustrating how to implement
+// an input operator ">>" for a deque
 #include <deque>
 #include <iostream>
 
@@ -22,3 +24,8 @@ int main() {
     cout << sum << "\n";
   }
 }
+
+/* As with the output operator, the input operator typically returns u the
+same stream it receives v. However, unlike with the output operator, the
+YourType reference will generally not be const, because you’ll want to modify
+the corresponding object using input from the stream */

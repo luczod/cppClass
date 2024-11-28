@@ -1,3 +1,5 @@
+// Listing 16-19: A program using random access methods to read arbitrary characters in a
+// text file
 #include <exception>
 #include <fstream>
 #include <iostream>
@@ -6,11 +8,13 @@ using namespace std;
 
 ifstream open(const char* path, ios_base::openmode mode = ios_base::in) {
   ifstream file{ path, mode };
+
   if(!file.is_open()) {
     string err{ "Unable to open file " };
     err.append(path);
     throw runtime_error{ err };
   }
+
   file.exceptions(ifstream::badbit);
   return file;
 }

@@ -1,3 +1,5 @@
+// Listing 17-7: A file- and directory-listing program that uses std::filesystem::directory
+// _iterator to enumerate a given directory.
 #include <filesystem>
 #include <iomanip>
 #include <iostream>

@@ -1,3 +1,5 @@
+// Listing 16-8: A program illustrating some of the manipulators
+// available in the <iomanip> header
 #include <iomanip>
 #include <iostream>
 

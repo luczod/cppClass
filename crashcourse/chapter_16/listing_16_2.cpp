@@ -1,3 +1,4 @@
+// Listing 16-2: Refactoring Listing 16-1 by chaining output operators together
 #include <bitset>
 #include <iostream>
 #include <string>

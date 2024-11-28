@@ -1,3 +1,4 @@
+// Listing 16-7: Refactoring Listing 16-5 to handle badbit with exceptions
 #include <iostream>
 #include <string>
 

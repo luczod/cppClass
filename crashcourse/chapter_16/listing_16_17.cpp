@@ -1,3 +1,4 @@
+// Listing 16-17: Writing the message Hi to stdout using the ostreambuf_iterator class
 #include <iostream>
 #include <iterator>
 

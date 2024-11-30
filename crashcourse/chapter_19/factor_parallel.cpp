@@ -1,3 +1,5 @@
+// Listing 19-7: A factor_task function that wraps a call to factorize and returns a nicely
+// formatted message
 #include <array>
 #include <chrono>
 #include <future>

@@ -1,3 +1,4 @@
+// Listing 21-6: Using std::getenv to retrieve the path variable
 #include <cstdlib>
 #include <iostream>
 #include <string>

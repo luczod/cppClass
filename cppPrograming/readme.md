@@ -1,5 +1,6 @@
 ### CONTENTS
 
+- SectionMid Arrays, Pointer, References, Dynamic Memory, Debugger
 - Section 13 OOP
 - Section 14 Operator Overloading
 - Section 15 Inherintance

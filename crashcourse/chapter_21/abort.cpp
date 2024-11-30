@@ -1,3 +1,4 @@
+// Listing 21-4: Calling std::abort
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
@@ -13,7 +14,7 @@ struct Tracer {
   }
 
   private:
-  std::string name;
+    std::string name;
 };
 
 Tracer static_tracer{ "static Tracer" };

@@ -1,3 +1,4 @@
+// Listing 21-2: Registering an atexit callback
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>

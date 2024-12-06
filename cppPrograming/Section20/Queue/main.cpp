@@ -24,8 +24,9 @@ void display(std::queue<T> q)
 
 int main()
 {
+    // Note: You cannot add elements to the queue at the time of declaration, 
+    // like you can with vectors: queue<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
     std::queue<int> q;
-
     for(int i : { 1, 2, 3, 4, 5 }) {
         q.push(i);
     }
